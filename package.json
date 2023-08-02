@@ -8,19 +8,19 @@
     },
     "scripts": {
       "start": "node index.js",
-      "test": "jest"
+      "test": "jest --verbose"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/eugenestart/SVG-Logo-Maker.git"
+      "url": "git+https://github.com/eugenestar5/SVG-Logo-Maker.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/eugenestart/SVG-Logo-Maker/issues"
+      "url": "https://github.com/eugenestar5/SVG-Logo-Maker/issues"
     },
-    "homepage": "https://github.com/eugenestart/SVG-Logo-Maker#readme",
+    "homepage": "https://github.com/eugenestar5/SVG-Logo-Maker#readme",
     "dependencies": {
       "inquirer": "^8.2.4"
     },

@@ -5,7 +5,7 @@
  It allows users to generate an SVG Logo with their choice of shape, which are circle, square, or triangle.    
 Users also have the choice of shape color, text , and testcolor.
 
-##Video goes on
+Watch a [video](https://drive.google.com/file/d/19iS4MsfeAMFcckTcVw06LVY8DpVuQLMh/view?use=sharing) for a basic functionality of the application:
 
 ## Table of Contents
 
@@ -26,8 +26,7 @@ install dependecies and also use "npm install --save-dev jest" to install Jest d
 
 ## Usage
 
-It can be done by typing "node index.js" in their terminal. Users will be ask series of questions     
-before the Logo is generated. Users will be promoted to try again if they answer the questions wrongly.
+It can be done by typing "node index.js" in their terminal. To use the application, type node index.js at the command line to answer the prompted questions to generate the SVG logo. . Users will be prompted to try again if they answer the questions wrongly.
 
 
 ## License
@@ -42,7 +41,7 @@ Contributors are allowed
 
 ## Tests
 
-There has been some test on each shape.
+There has been test on each shape, which are Triangle, Circle,and Square. For unit testing, type "npm run test" at the terminal/command line. To test the application, type node index.js at the command line to answer the prompted questions to generate the SVG logo. 
 
 
 ## Questions

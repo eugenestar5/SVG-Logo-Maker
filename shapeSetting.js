@@ -1,21 +1,23 @@
 
-const Circle = require('./shapes.js');
+const {Circle, Square, Triangle} = require('./shapes.js');
 
 
 function shapeSetting(response) {
-
-    if (response.shape === 'Circle') {
+    console.log(response.Shape)
+    if (response.Shape === 'Circle') {
         let userShape = new Circle (response.shapeColor, response.text, response.textColor)
         return userShape.render()
     }
 
-    if (response.shape === 'Square') {
+    if (response.Shape === 'Square') {
         let userShape = new Square (response.shapeColor, response.text, response.textColor)
         return userShape.render()
     }
 
-    if (response.shape === 'Triangle') {
+    if (response.Shape === 'Triangle') {
         let userShape = new Triangle (response.shapeColor, response.text, response.textColor)
+        console.log(userShape)
+        console.log(userShape.render())
         return userShape.render()
     }
 };

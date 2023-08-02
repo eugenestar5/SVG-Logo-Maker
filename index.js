@@ -6,6 +6,7 @@ const shapeSetting = require('./shapeSetting')
 
 // Creating a new svg file that uses inquirer response and file system
 function createLogo(response) {
+    //console.log(response)
     const svg = shapeSetting(response);
     fs.writeFile(fileName, svg, ()=> console.log('Generated logo.svg'));
 }
